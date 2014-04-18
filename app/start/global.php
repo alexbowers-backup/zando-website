@@ -64,7 +64,7 @@ App::error(function(Exception $exception, $code)
 
 App::down(function()
 {
-	return View::make('maintenance');
+	return Response::view('maintainence', array(), 503);
 });
 
 /*
