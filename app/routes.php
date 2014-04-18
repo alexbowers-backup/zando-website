@@ -10,15 +10,6 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
-Route::get('/', function()
-{
-	return View::make('splash');
-});
-Route::get('/splash', function() {
-	return View::make('splash');
-});
-
 Route::get('{path}', function() {
 	return View::make('splash');
 })->where('path', '.*');
