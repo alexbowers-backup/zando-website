@@ -13,5 +13,12 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('splash');
 });
+Route::get('/splash', function() {
+	return View::make('splash');
+});
+
+Route::get('{path}', function() {
+	return View::make('splash');
+})->where('path', '.*');
