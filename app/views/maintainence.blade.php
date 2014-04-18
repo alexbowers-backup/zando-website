@@ -15,7 +15,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 		<link rel="stylesheet" href="css/font-awesome.min.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-		<base href="https://zando.co.uk/">
+		<base href="http://zando.co.uk/">
 
 		<meta charset="utf-8" /> 
 		<meta name="application-name" content="Zando Android Learning" />
@@ -45,7 +45,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 							<h2>Covering <strong>as much of android</strong> as humanly possible</h2>
 						</div>
 						<div class="strapline">
-							<h1>We're just getting started</h1>
+							<h1>Down for Maintainence</h1>
 							<h2>Check back again soon</h2>
 						</div>
 					</div>
