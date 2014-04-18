@@ -19,7 +19,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 
 		<meta charset="utf-8" /> 
 		<meta name="application-name" content="Zando Android Learning" />
-		<meta name="viewport" content="initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Alex Bowers" />
 		<meta name="description" content="" />
 		<meta name="generator" content="" />
