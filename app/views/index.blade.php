@@ -40,7 +40,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 					<nav class="expanded">
 						<ul>
 							<li><a href="#" class="active">Home</a></li>
-							<li><a href="#">Learn</a></li>
+							<li><a href="#">Continue</a></li>
 							<li><a href="#" class="inactive">Browse</a></li>
 							<li><a href="#" class="inactive">Socialize</a></li>
 						</ul>
