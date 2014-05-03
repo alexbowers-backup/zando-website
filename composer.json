@@ -39,7 +39,7 @@
 	"require-dev": {
 		"itsgoingd/clockwork": "1.*",
 		"way/generators": "2.*",
-		"phpunit/phpunit": "~2.0",
+		"phpunit/phpunit": "3.7.*",
 		"behat/behat": "2.4.*@stable",
 		"behat/mink": "1.4.*@stable",
 		"behat/mink-extension": "*",
