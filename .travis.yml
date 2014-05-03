@@ -5,12 +5,19 @@ php:
   - 5.5
   - 5.6
   - hhvm
-  
+
+services:
+  - mysql
+
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
-  
-script: phpunit
+  - php -S localhost:8000 
+  - sleep 3
+
+script: 
+  - phpunit
+  - ./vendor/bin/behat --config app/tests/behat.yml
 
 matrix:
   allow_failures:

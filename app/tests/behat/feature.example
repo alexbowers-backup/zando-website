@@ -1,0 +1,12 @@
+## Example feature
+
+Feature: feature name
+	In order ..
+	As a ..
+	I need to ...
+	
+	Scenario: Short description of the scenario
+		Given some context
+		When some event
+		Then some outcome
+

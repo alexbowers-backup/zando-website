@@ -108,7 +108,6 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Clockwork\Support\Laravel\ClockworkServiceProvider',
 		'Cartalyst\Sentry\SentryServiceProvider',
-
 	),
 
 	/*
