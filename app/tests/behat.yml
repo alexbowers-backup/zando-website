@@ -1,7 +1,7 @@
 default:
-	paths:
-		features: behat
-	extensions:
-		Behat\MinkExtension\Extension:
-			goutte: ~
-			base_url: http://localhost:8000
+    paths:
+        features: behat
+    extensions:
+        Behat\MinkExtension\Extension:
+            goutte: ~
+            base_url: http://localhost:8000
