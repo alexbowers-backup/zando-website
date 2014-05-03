@@ -3,7 +3,9 @@ zando-website
 
 The website for Zando | Android Learning
 
-[![Build Status](https://travis-ci.org/alexbowers/zando-website.svg?branch=master)](https://travis-ci.org/alexbowers/zando-website)
+Build status: Master - [![Build Status](https://travis-ci.org/alexbowers/zando-website.svg?branch=master)](https://travis-ci.org/alexbowers/zando-website)
+
+Build status: Latest - [![Build Status](https://travis-ci.org/alexbowers/zando-website.svg)](https://travis-ci.org/alexbowers/zando-website)
 
 
 ## .env.local.php and .env.php
