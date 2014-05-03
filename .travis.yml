@@ -12,7 +12,9 @@ services:
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
-  - php -S localhost:8000 
+  - php artisan migrate
+  - php artisan db:seed
+  - php -S localhost:8000 httpdocs/index.php &
   - sleep 3
 
 script: 
