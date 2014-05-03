@@ -24,11 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('Alex-gaming'), # type 'hostname' into your terminal to get this value for you.
-
-));
+$env = $app->detectEnvironment(function() {
+	return getenv('env') ?: 'local';
+});
 
 /*
 |--------------------------------------------------------------------------

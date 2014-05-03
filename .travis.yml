@@ -12,6 +12,7 @@ services:
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
+  - mysql -e 'create database zando;'
   - php artisan env
 
 script: 
@@ -23,3 +24,7 @@ matrix:
     - php: 5.6
     - php: hhvm
   fast_finish: true
+
+env:
+  global:
+    - env=travis
