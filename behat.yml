@@ -1,6 +1,7 @@
 default:
     paths:
-        features: behat
+        features: %behat.paths.base%/app/tests/features
+        bootstrap: %behat.paths.base%/app/tests/features/bootstrap
     extensions:
         Behat\MinkExtension\Extension:
             goutte: ~

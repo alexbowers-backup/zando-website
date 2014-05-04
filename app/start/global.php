@@ -64,7 +64,7 @@ App::error(function(Exception $exception, $code)
 
 App::down(function()
 {
-	return Response::view('maintainence', array(), 503);
+	return Response::view('errors.503', array(), 503);
 });
 
 /*

@@ -15,7 +15,7 @@
 			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
-			"app/tests/phpunit/TestCase.php"
+			"app/tests/TestCase.php"
 		]
 	},
 	"scripts": {
@@ -33,7 +33,7 @@
 	},
 	"config": {
 		"preferred-install": "dist",
-		"bin-dir": "vendor/bin/"
+		"bin-dir": "bin/"
 	},
 	"minimum-stability": "stable",
 	"require-dev": {
