@@ -20,7 +20,7 @@ before_script:
 
 script: 
   - phpunit
-  - ./bin/behat --config behat.yml
+  - behat --config behat.yml
 
 matrix:
   allow_failures:
