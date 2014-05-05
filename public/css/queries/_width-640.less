@@ -1,7 +1,7 @@
-// 	Copyright (C) Zando.co.uk - All Rights Reserved
-// 	Unauthorized copying of this file, via any medium is strictly prohibited
-// 	Proprietary and confidential
-// 	Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Zando.co.uk exclusively
+    // Copyright (C) Zando.co.uk - All Rights Reserved
+    // Unauthorized copying of this file, via any medium is strictly prohibited
+    // Proprietary and confidential
+    // Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Zando.co.uk exclusively
 
 
 // VARIABLES
@@ -18,7 +18,7 @@
 	height: auto !important;
 	header {
 		width: @full-bleed;
-		height: 50px;
+		height: 70px;
 		display: block;
 		background-color: @header-bg;
 		.boundary {
@@ -30,15 +30,29 @@
 				position: relative;
 				top: 5px;
 				float: left;
-				background-image: url(images/logo.png);
+				background-image: url(images/logo-robot.png);
 				background-repeat: no-repeat;
 				background-origin: top left;
 				background-position: 0px 0px;
-				background-size: cover;
+				background-size: contain;
 				width: 82px;
-				height: 40px;
+				height: 60px;
 				cursor: pointer;
-				
+			}
+			.title {
+				.vertical-position;
+				display: inline-block;
+				float: left;
+				width: 82px;
+				height: 60px;
+				cursor: pointer;
+				line-height: 60px;
+				font-family: "Roboto Condensed Bold";
+				font-size: 20px;
+				text-transform: capitalize;
+				&:hover {
+					color: grey;
+				}
 			}
 			nav {
 				float: right;
@@ -53,11 +67,11 @@
 						display: table-cell;
 						text-align: center;
 						vertical-align: middle;
-						border-right: 1px solid @white;
+						border-right: 1px solid rgba(0,0,0,0.1);
 						padding-top: 3px;
 						padding-bottom: 3px;
 						a {
-							font-family: "Roboto";
+							font-family: "Roboto Condensed Bold";
 							text-decoration: none;
 							text-transform: uppercase;
 							color: @black;
@@ -65,14 +79,17 @@
 							font-smooth: always;
 							-webkit-font-smoothing: antialiased;
 							&.active {
-								font-weight: bold;
+								color: rgba(0,0,0,0.75);
 							}
 							&.inactive {
-								color: @inactive;
+								color: rgba(0,0,0,0.2);
 							}
 							&:hover:not(.inactive) {
-								font-weight: bold;
+								color: rgba(0,0,0,0.50);
 							}
+						}
+						&:last-child {
+							border-right: none;
 						}
 					}
 				}

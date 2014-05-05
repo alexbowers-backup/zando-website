@@ -11,7 +11,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 <html>
 	<head>
 		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style-new.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/font-awesome.min.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
@@ -74,7 +74,7 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 					<div id="contained">
 						<div class="column">
 							<div class="header">
-								<h1>Written</h1>
+								<h1>Full Courses</h1>
 								<h2>All you need to become an android developer</h2>
 							</div>
 							<div class="previews">
@@ -100,8 +100,8 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 						</div>
 						<div class="column">
 							<div class="header">
-								<h1>Videos</h1>
-								<h2>All you need to become an android developer</h2>
+								<h1>Stand-alone Videos</h1>
+								<h2>Quick tips and tricks</h2>
 							</div>
 							<div class="previews">
 								<div class="coming_soon">
@@ -112,8 +112,8 @@ Written by Alex Bowers <bowersbros+zando_copyright@gmail.com>, March 2014 for Za
 						</div>
 						<div class="column">
 							<div class="header">
-								<h1>Written</h1>
-								<h2>All you need to become an android developer</h2>
+								<h1>Design Tips</h1>
+								<h2>Make your apps beautiful</h2>
 							</div>
 							<div class="previews">
 								<div class="coming_soon">
